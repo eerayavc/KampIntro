@@ -33,6 +33,9 @@ namespace ClassMetotDemo
             Musteri[] musteriler = new Musteri[] { musteri1, musteri2, musteri3 };
 
             MusteriManager musteriManager = new MusteriManager();
+            Console.WriteLine("**-*-** In order to start the app press 'Enter' **-*-**");
+            Console.WriteLine("**-*-** Keep pressing 'Enter' after each action takes place. **-*-**");
+            Console.ReadKey();
             musteriManager.Ekle(musteri1);
             musteriManager.Ekle(musteri2);
             musteriManager.Ekle(musteri3);
