@@ -8,7 +8,7 @@ namespace ClassMetotDemo
     {
         public void Ekle(Musteri musteri)
         {
-            Console.WriteLine(musteri.Ad + " " + "İSİMLİ" + " - " + musteri.Id + " " + " - " + "IDLİ MÜŞTERİ EKLENDİ"); 
+            Console.WriteLine(musteri.Ad + " " + "isimli" + " - " + musteri.Id + " " + " - " + "IDLİ MÜŞTERİ EKLENDİ"); 
         }
          
         public void Sil(Musteri musteri)
