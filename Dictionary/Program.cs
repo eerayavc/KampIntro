@@ -11,8 +11,8 @@ namespace Dictionary
             adYas.Add("Emir", 19);
             adYas.Add("Yiğit", 18);
 
-
-            Console.WriteLine(adYas.Count);
+            Console.WriteLine("eleman sayısı:" + adYas.Count);
+           
 
         }
 

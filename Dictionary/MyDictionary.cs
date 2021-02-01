@@ -19,6 +19,7 @@ namespace Dictionary
         {
             TK[] tempArrayK = keys;
             keys = new TK[keys.Length + 1];
+
             TV[] tempArrayV = values;
             values = new TV[values.Length + 1];
 
@@ -36,15 +37,12 @@ namespace Dictionary
             values[values.Length - 1] = value;
 
             Console.WriteLine("İsim:" + key +" " + "Yaş:" + " " +value);
-            
-
         }
         
         public int Count
         {
-          
             get { return keys.Length; }
         }
-           
+        
     }
 }
