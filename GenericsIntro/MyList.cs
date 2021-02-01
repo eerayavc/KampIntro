@@ -12,7 +12,7 @@ namespace GenericsIntro
         //bir arrrayın newlenme zorunluluğu vardır.
         public MyList() //paranetez içerisinde olduğundan bu da bir metod
         {
-            items = new T[0];  //ilk etapta steack'da istems diye ilk kez sıfır elemanları new oluşturuyoruz,mylisti newliyoruz
+            items = new T[0];  //ilk etapta steack'da items diye ilk kez sıfır elemanları new oluşturuyoruz,mylisti newliyoruz
         }
         public void Add(T item) //yeni bir eleman eklemek için bu yapıyı kurduk
         {
